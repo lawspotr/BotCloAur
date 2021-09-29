@@ -21,8 +21,9 @@
 			"required": false
 		}
 	},
-    	"stack": "container",
 	"buildpacks": [{
 		"url": "heroku/php"
-		}]
+		}],
+    "stack": "container"
+	
 }
