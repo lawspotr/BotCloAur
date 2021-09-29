@@ -1,11 +1,11 @@
 {
 	"name": "CloneBot",
 	"description": "CloneBot",
-	"repository": "https://github.com/MsGsuite/CloneBot",
+	"repository": "https://github.com/lawspotr/BotCloAur",
 	"keywords": ["Gclone","TG"],
-	"repository": "https://github.com/MsGsuite/CloneBot",
-        "website": "https://t.me/msgsuitechat",
-        "success_url": "https://github.com/MsGsuite/CloneBot/blob/master/README.md",
+	"repository": "https://github.com/lawspotr/BotCloAur",
+        "website": "",
+        "success_url": "",
 	"env": {
 		"telegram_token": {
 			"description": "Get from Telegram @Botfather."
@@ -21,5 +21,8 @@
 			"required": false
 		}
 	},
-    	"stack": "container"
+    	"stack": "container",
+	"buildpacks": [{
+		"url": "heroku/php"
+		}]
 }
